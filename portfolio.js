@@ -18,6 +18,9 @@ req.onload = function () {
         data.forEach(project => {
             console.log(project);
 
+            //Dont have website project on website
+            if (project.name == 'dfimbres.github.io') return;
+
             const card = document.createElement('div');
             card.setAttribute('class', 'card');
 

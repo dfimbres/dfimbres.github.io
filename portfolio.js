@@ -65,4 +65,3 @@ req.onload = function () {
 
 req.send();
 
-// Globe by Ben from the Noun Project

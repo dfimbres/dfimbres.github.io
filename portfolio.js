@@ -20,6 +20,7 @@ req.onload = function () {
 
             //Dont have website project on website
             if (project.name == 'dfimbres.github.io') return;
+            // if(project.description == null) return;
 
             const card = document.createElement('div');
             card.setAttribute('class', 'card');

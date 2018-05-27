@@ -87,7 +87,7 @@ a {
 
 .stripe {
     z-index: -1;
-    height: 400px;
+    height: 50vw;
     width: 100%;
     display: grid;
     position: fixed;
